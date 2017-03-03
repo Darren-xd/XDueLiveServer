@@ -39,10 +39,10 @@ CREATE TABLE advertises (
 -- ----------------------------
 -- Records of advertises
 -- ----------------------------
-INSERT INTO advertises VALUES ('1', '±êÌâ', 'ÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝ', '4', '18µ½35', '18601643004', '3000', '°¢Î÷°Í¹«Ë¾', '°¢Î÷°ÉµØÖ·µØÖ·µØÖ·', '2017-02-25 20:52:30', '1', null, null);
-INSERT INTO advertises VALUES ('5', '±êÌâ', '3464877879977707Å®ÈË×ÔÈ¡ÆäÈèÂíÈøÖîÈûÖÝÈ«ÐÄÈ«ÒâÍ¿ÉÏÖ¤Ö¸ÊýÇá×°ÉÏÕó', '10', '18 - 25Ëê', '18601643004', '1000 - 2000Ôª', 'Å¶ÆÅÆÅÏàÈ¥ÉõÔ¶ÊÇÒ»ÉúÒ»ÊÀÂíÈøÖîÈûÖÝÎ¯ÇúÇóÈ«', 'ÄãÒªË÷È»ÎÞÎ¶Ñ»È¸ÎÞÉù', '2017-02-28 23:54:12', '1', 'null', null);
-INSERT INTO advertises VALUES ('6', '±êÌâ', '3464877879977707Å®ÈË×ÔÈ¡ÆäÈèÂíÈøÖîÈûÖÝÈ«ÐÄÈ«ÒâÍ¿ÉÏÖ¤Ö¸ÊýÇá×°ÉÏÕó', '10', '18 - 25Ëê', '18601643004', '1000 - 2000Ôª', 'Å¶ÆÅÆÅÏàÈ¥ÉõÔ¶ÊÇÒ»ÉúÒ»ÊÀÂíÈøÖîÈûÖÝÎ¯ÇúÇóÈ«', 'ÄãÒªË÷È»ÎÞÎ¶Ñ»È¸ÎÞÉù', '2017-02-28 23:55:10', '1', 'Å¶ÆÅÆÅÏàÈ¥ÉõÔ¶ÊÇÒ»ÉúÒ»ÊÀÂíÈøÖîÈûÖÝÎ¯ÇúÇóÈ«', null);
-INSERT INTO advertises VALUES ('7', 'ÕÐÆ¸³øÊ¦', '»áµ°³´·¹¾ÍºÃ', '2', '25 - 30Ëê', '18601643004', '2000 - 3000Ôª', 'ºÜ²»´íµÄÉÌ¼Ò', 'ÉÏº£ÊÐ¾²°²ËÂ100ºÅ', '2017-03-01 01:42:39', '1', 'ºÜ²»´íµÄÉÌ¼Ò', null);
+INSERT INTO advertises VALUES ('1', 'æ ‡é¢˜', 'å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹', '4', '18åˆ°35', '18601643004', '3000', 'é˜¿è¥¿å·´å…¬å¸', 'é˜¿è¥¿å§åœ°å€åœ°å€åœ°å€', '2017-02-25 20:52:30', '1', null, null);
+INSERT INTO advertises VALUES ('5', 'æ ‡é¢˜', '3464877879977707å¥³äººè‡ªå–å…¶è¾±é©¬è¨è¯¸å¡žå·žå…¨å¿ƒå…¨æ„æ¶‚ä¸Šè¯æŒ‡æ•°è½»è£…ä¸Šé˜µ', '10', '18 - 25å²', '18601643004', '1000 - 2000å…ƒ', 'å“¦å©†å©†ç›¸åŽ»ç”šè¿œæ˜¯ä¸€ç”Ÿä¸€ä¸–é©¬è¨è¯¸å¡žå·žå§”æ›²æ±‚å…¨', 'ä½ è¦ç´¢ç„¶æ— å‘³é¸¦é›€æ— å£°', '2017-02-28 23:54:12', '1', 'null', null);
+INSERT INTO advertises VALUES ('6', 'æ ‡é¢˜', '3464877879977707å¥³äººè‡ªå–å…¶è¾±é©¬è¨è¯¸å¡žå·žå…¨å¿ƒå…¨æ„æ¶‚ä¸Šè¯æŒ‡æ•°è½»è£…ä¸Šé˜µ', '10', '18 - 25å²', '18601643004', '1000 - 2000å…ƒ', 'å“¦å©†å©†ç›¸åŽ»ç”šè¿œæ˜¯ä¸€ç”Ÿä¸€ä¸–é©¬è¨è¯¸å¡žå·žå§”æ›²æ±‚å…¨', 'ä½ è¦ç´¢ç„¶æ— å‘³é¸¦é›€æ— å£°', '2017-02-28 23:55:10', '1', 'å“¦å©†å©†ç›¸åŽ»ç”šè¿œæ˜¯ä¸€ç”Ÿä¸€ä¸–é©¬è¨è¯¸å¡žå·žå§”æ›²æ±‚å…¨', null);
+INSERT INTO advertises VALUES ('7', 'æ‹›è˜åŽ¨å¸ˆ', 'ä¼šè›‹ç‚’é¥­å°±å¥½', '2', '25 - 30å²', '18601643004', '2000 - 3000å…ƒ', 'å¾ˆä¸é”™çš„å•†å®¶', 'ä¸Šæµ·å¸‚é™å®‰å¯º100å·', '2017-03-01 01:42:39', '1', 'å¾ˆä¸é”™çš„å•†å®¶', null);
 
 -- ----------------------------
 -- Table structure for business
@@ -71,7 +71,7 @@ CREATE TABLE business (
 -- ----------------------------
 -- Records of business
 -- ----------------------------
-INSERT INTO business VALUES ('2', 'ÐÂÊ¯Æ÷¿¾Èâ', 'ÐÂÊ¯Æ÷¿¾Èâ¹ÙÍøÒÑÏà¼Ì¿ªÒµËÄÊ®Óà¼ÒÁ¬ËøÃÅµê;¡°ÐÂÊ¯Æ÷¡±×÷Îª¡°ÅÌ¹Å¿¾Èâ¡±Éý¼¶ºóµÄÐÂÃû³Æ£¬ÒÑÔÚÉÏº£¡¢±±¾©¡¢ËÕÖÝ¡¢ÄÏ¾©µÈµØ¾­Óª¶þÊ®Óà¼ÒÁ¬ËøÃÅµê;õ¤ÔÃÌ¿ÉÕ»ð¹øÄ¿Ç°Õý´¦ÔÚÄ£Ê½ÓÅ»¯ºÍÆ·ÅÆÅàÓý½×¶Î¡£Ëæ×Å×ÛºÏÊµÁ¦µÄ²»¶ÏÌáÉýºÍÍêÉÆ£¬ÐÂÊ¯Æ÷¿¾ÈâÎ´À´½«Á¢×ãÓÚ»¦¡¢Äþ¡¢º¼¡¢¾©¡¢½ò¡¢ÈØµÈ³ÇÊÐ£¬ÐÂÊ¯Æ÷¿¾Èâ¹ÙÍøÖð²½²¼¾ÖÈ«¹ú¡£', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689860&di=378b8ad58f4c40c34fac64304ce13114&imgtype=0&src=http%3A%2F%2F365jia.cn%2Fuploads%2F10%2F1202%2F4cf6f96375fec.jpg', 'ÐÂÊ¯Æ÷¿¾Èâ¹ÙÍøÔÚÊ®¶àÄêµÄ·¢Õ¹Àú³ÌÖÐ£¬²ÍÒûÂú»³ÈÈ³À£¬Ö´×ÅÓÚÃ¿Ò»¸öÏ¸½Ú£¬ÎÞÂÛÊÇÔÚ¾«ÖÂÊ³²ÄµÄÕçÑ¡£¬Åëâ¿¼¼ÊõµÄÌ½Ë÷£¬»¹ÊÇ¶ÔÓÚ·þÎñÆ·ÖÊµÄ×·Çó£¬Ê¼ÖÕÇãÁ¦Îª¹Ë¿ÍÓªÔìÒ»·ÝÓäÔÃµÄÓÃ²ÍÌåÑé£¬ÆíÅÎ½«Õâ·ÝÐÒ¸£´ø¸øÃ¿Ò»Î»¿ÍÈË¡£ÐÂÊ¯Æ÷¿¾Èâ¹ÙÍøÅ¬Á¦³ÉÎªÎ´À´¹úÄÚ×î¾ß¼ÛÖµµÄ²ÍÒûÁ¬ËøÆóÒµÖ®Ò»¡£', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689859&di=ec114d61662613dbec2059b938525b75&imgtype=0&src=http%3A%2F%2Fdown1.sucaitianxia.com%2Fpsd02%2Fpsd173%2Fpsds33840.jpg', 'ÐÂÊ¯Æ÷¿¾Èâ¹ÙÍø¶ÔÐÂ¼ÓÃË¿Í»§£¬¹«Ë¾½«ÅÉ×¨ÒµÏúÊÛÈËÔ±½øÐÐÊµµØÉÌÈ¦µ÷²é£¬×¨ÂôµêµØ¶ÎÆÀ¹À£¬ÊÐ³¡¾ºÕù»·¾³£¬Ïû·ÑÈºÌå£¬¿ª·¢Ç°¾°µÈÒ»ÏµÁÐ¿ÉÐÐÐÔ·ÖÎö£¬È·±£Æ·ÅÆ³É¹¦µ¼ÈëÊÐ³¡¡£¹«Ë¾½«ÅÉ¹¤³ÌÉè¼ÆÈËÔ±Ãâ·ÑÎª¼ÓÃËµê¡¢»õ¹ñÐÎÏó¡¢²úÆ·ºÍµÀ¾ßµÄ³ÂÁÐÐÎ³ÉÍêÕûµÄÊÓ¾õÊ¶±ðÏµÍ³£¬ÐÂÊ¯Æ÷¿¾Èâ¹ÙÍøÌá¹©¹æ·¶µÄP0P¡¢º£±¨¡¢»­²áµÈ¡£', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689857&di=ddb816724203a35c704b5918e43aab71&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F10%2F38%2F22h58PICPDV_1024.jpg', 'ÐÂÊ¯Æ÷¿¾Èâ¹ÙÍø¹«Ë¾½«Ìá¹©ÎÞÎ¢²»ÖÁ²¢¸»ÓÐÊµÐ§µÄÇ°ÆÚºÍ¶¨ÆÚÅàÑµ£¬Èç±¾ÐÐÒµ¾­Óª¼¼ÇÉ¡¢ÓªÒµÔ±½Ó´ý¼¼ÇÉ¡¢²úÆ·×¨ÒµÖªÊ¶¡£ÑÏ¸ñµÄÊÐ³¡ÇøÓò»®·Ö£¬ÔÚÒ»¶¨ÇøÓòÄÚÈ·±£¼ÓÃËÉÌÂ¢¶Ï¾­Óª£¬ÐÂÊ¯Æ÷¿¾Èâ¹ÙÍø±ÜÃâÍ¬Æ·ÅÆÖ®¼äµÄ¶ñÐÔ¾ºÕù£¬ÈÃ¼ÓÃËÉÌ³ä·ÖÏíÊÜÌØÐíÇøÓòµÄÏúÊÛÀûÒæ¡£', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689856&di=545c6ca98cda1becc5e6731590f2c8e7&imgtype=0&src=http%3A%2F%2Fpic31.nipic.com%2F20130703%2F13167908_174347354000_2.jpg', 'ÐÂÊ¯Æ÷¿¾ÈâÁ¥ÊôÓÚÉÏº£ÅÌ¹Å²ÍÒû¹ÜÀíÓÐÏÞ¹«Ë¾£¬×Ô1999Äê´´Á¢ÒÔÀ´£¬\r\nÔÚ´«Í³¿¾Èâ¹¤ÒÕµÄ»ù´¡ÉÏ£¬¼³È¡ÖÚ¼ÒÖ®³¤£¬\r\nÓÃÐÄ´´ÐÂ¡°Ö½ÉÏÉÕ¿¾¡±µÄÅëâ¿·½Ê½£¬\r\n¾«Ñ¡½¡¿µÓÅÖÊÊ³²Ä£¬¼á³ÖÌìÈ»¶À¼Ò½´ÁÏ£¬\r\n¼ÓÖ®¡°ÎåÉ«ÎåÎ¶¡±µÄº«Ê½Ê¯¹ø°è·¹£¬¾ùºâÉÅÊ³ÓªÑø£¬\r\nÔÚÏíÊÜÃÀÎ¶µÄÍ¬Ê±£¬ÓÖÄÜÌåÑéDIYµÄÒÝÈ¤£»\r\nÐÂÊ¯Æ÷ÒÔÃÀÎ¶µÄ²ËÆ·£¬Ç×ÃñµÄ¼Û¸ñ£¬¿ì½ÝµÄ¹©²Í£¬ÖÜµ½µÄÀñÓöºÍÓÅÑÅµÄ»·¾³£¬\r\nÎªÃ¿Ò»Î»ÈÈ°®ÉÕ¿¾µÄ¹Ë¿ÍÌá¹©³¬ÖµµÄÏû·ÑÌåÑé¡£', 'http://xshq.pgbbq.cn/UploadImage/edit/images/img01.jpg', 'ÉÏº£ÊÐ¾²°²ËÂ100ºÅ', '18601643004', '2017-02-25 10:30:30', null);
+INSERT INTO business VALUES ('2', 'æ–°çŸ³å™¨çƒ¤è‚‰', 'æ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘å·²ç›¸ç»§å¼€ä¸šå››åä½™å®¶è¿žé”é—¨åº—;â€œæ–°çŸ³å™¨â€ä½œä¸ºâ€œç›˜å¤çƒ¤è‚‰â€å‡çº§åŽçš„æ–°åç§°ï¼Œå·²åœ¨ä¸Šæµ·ã€åŒ—äº¬ã€è‹å·žã€å—äº¬ç­‰åœ°ç»è¥äºŒåä½™å®¶è¿žé”é—¨åº—;é…©æ‚¦ç‚­çƒ§ç«é”…ç›®å‰æ­£å¤„åœ¨æ¨¡å¼ä¼˜åŒ–å’Œå“ç‰ŒåŸ¹è‚²é˜¶æ®µã€‚éšç€ç»¼åˆå®žåŠ›çš„ä¸æ–­æå‡å’Œå®Œå–„ï¼Œæ–°çŸ³å™¨çƒ¤è‚‰æœªæ¥å°†ç«‹è¶³äºŽæ²ªã€å®ã€æ­ã€äº¬ã€æ´¥ã€è“‰ç­‰åŸŽå¸‚ï¼Œæ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘é€æ­¥å¸ƒå±€å…¨å›½ã€‚', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689860&di=378b8ad58f4c40c34fac64304ce13114&imgtype=0&src=http%3A%2F%2F365jia.cn%2Fuploads%2F10%2F1202%2F4cf6f96375fec.jpg', 'æ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘åœ¨åå¤šå¹´çš„å‘å±•åŽ†ç¨‹ä¸­ï¼Œé¤é¥®æ»¡æ€€çƒ­å¿±ï¼Œæ‰§ç€äºŽæ¯ä¸€ä¸ªç»†èŠ‚ï¼Œæ— è®ºæ˜¯åœ¨ç²¾è‡´é£Ÿæçš„ç”„é€‰ï¼Œçƒ¹é¥ªæŠ€æœ¯çš„æŽ¢ç´¢ï¼Œè¿˜æ˜¯å¯¹äºŽæœåŠ¡å“è´¨çš„è¿½æ±‚ï¼Œå§‹ç»ˆå€¾åŠ›ä¸ºé¡¾å®¢è¥é€ ä¸€ä»½æ„‰æ‚¦çš„ç”¨é¤ä½“éªŒï¼Œç¥ˆç›¼å°†è¿™ä»½å¹¸ç¦å¸¦ç»™æ¯ä¸€ä½å®¢äººã€‚æ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘åŠªåŠ›æˆä¸ºæœªæ¥å›½å†…æœ€å…·ä»·å€¼çš„é¤é¥®è¿žé”ä¼ä¸šä¹‹ä¸€ã€‚', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689859&di=ec114d61662613dbec2059b938525b75&imgtype=0&src=http%3A%2F%2Fdown1.sucaitianxia.com%2Fpsd02%2Fpsd173%2Fpsds33840.jpg', 'æ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘å¯¹æ–°åŠ ç›Ÿå®¢æˆ·ï¼Œå…¬å¸å°†æ´¾ä¸“ä¸šé”€å”®äººå‘˜è¿›è¡Œå®žåœ°å•†åœˆè°ƒæŸ¥ï¼Œä¸“å–åº—åœ°æ®µè¯„ä¼°ï¼Œå¸‚åœºç«žäº‰çŽ¯å¢ƒï¼Œæ¶ˆè´¹ç¾¤ä½“ï¼Œå¼€å‘å‰æ™¯ç­‰ä¸€ç³»åˆ—å¯è¡Œæ€§åˆ†æžï¼Œç¡®ä¿å“ç‰ŒæˆåŠŸå¯¼å…¥å¸‚åœºã€‚å…¬å¸å°†æ´¾å·¥ç¨‹è®¾è®¡äººå‘˜å…è´¹ä¸ºåŠ ç›Ÿåº—ã€è´§æŸœå½¢è±¡ã€äº§å“å’Œé“å…·çš„é™ˆåˆ—å½¢æˆå®Œæ•´çš„è§†è§‰è¯†åˆ«ç³»ç»Ÿï¼Œæ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘æä¾›è§„èŒƒçš„P0Pã€æµ·æŠ¥ã€ç”»å†Œç­‰ã€‚', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689857&di=ddb816724203a35c704b5918e43aab71&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F10%2F38%2F22h58PICPDV_1024.jpg', 'æ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘å…¬å¸å°†æä¾›æ— å¾®ä¸è‡³å¹¶å¯Œæœ‰å®žæ•ˆçš„å‰æœŸå’Œå®šæœŸåŸ¹è®­ï¼Œå¦‚æœ¬è¡Œä¸šç»è¥æŠ€å·§ã€è¥ä¸šå‘˜æŽ¥å¾…æŠ€å·§ã€äº§å“ä¸“ä¸šçŸ¥è¯†ã€‚ä¸¥æ ¼çš„å¸‚åœºåŒºåŸŸåˆ’åˆ†ï¼Œåœ¨ä¸€å®šåŒºåŸŸå†…ç¡®ä¿åŠ ç›Ÿå•†åž„æ–­ç»è¥ï¼Œæ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘é¿å…åŒå“ç‰Œä¹‹é—´çš„æ¶æ€§ç«žäº‰ï¼Œè®©åŠ ç›Ÿå•†å……åˆ†äº«å—ç‰¹è®¸åŒºåŸŸçš„é”€å”®åˆ©ç›Šã€‚', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689856&di=545c6ca98cda1becc5e6731590f2c8e7&imgtype=0&src=http%3A%2F%2Fpic31.nipic.com%2F20130703%2F13167908_174347354000_2.jpg', 'æ–°çŸ³å™¨çƒ¤è‚‰éš¶å±žäºŽä¸Šæµ·ç›˜å¤é¤é¥®ç®¡ç†æœ‰é™å…¬å¸ï¼Œè‡ª1999å¹´åˆ›ç«‹ä»¥æ¥ï¼Œ\r\nåœ¨ä¼ ç»Ÿçƒ¤è‚‰å·¥è‰ºçš„åŸºç¡€ä¸Šï¼Œæ±²å–ä¼—å®¶ä¹‹é•¿ï¼Œ\r\nç”¨å¿ƒåˆ›æ–°â€œçº¸ä¸Šçƒ§çƒ¤â€çš„çƒ¹é¥ªæ–¹å¼ï¼Œ\r\nç²¾é€‰å¥åº·ä¼˜è´¨é£Ÿæï¼ŒåšæŒå¤©ç„¶ç‹¬å®¶é…±æ–™ï¼Œ\r\nåŠ ä¹‹â€œäº”è‰²äº”å‘³â€çš„éŸ©å¼çŸ³é”…æ‹Œé¥­ï¼Œå‡è¡¡è†³é£Ÿè¥å…»ï¼Œ\r\nåœ¨äº«å—ç¾Žå‘³çš„åŒæ—¶ï¼Œåˆèƒ½ä½“éªŒDIYçš„é€¸è¶£ï¼›\r\næ–°çŸ³å™¨ä»¥ç¾Žå‘³çš„èœå“ï¼Œäº²æ°‘çš„ä»·æ ¼ï¼Œå¿«æ·çš„ä¾›é¤ï¼Œå‘¨åˆ°çš„ç¤¼é‡å’Œä¼˜é›…çš„çŽ¯å¢ƒï¼Œ\r\nä¸ºæ¯ä¸€ä½çƒ­çˆ±çƒ§çƒ¤çš„é¡¾å®¢æä¾›è¶…å€¼çš„æ¶ˆè´¹ä½“éªŒã€‚', 'http://xshq.pgbbq.cn/UploadImage/edit/images/img01.jpg', 'ä¸Šæµ·å¸‚é™å®‰å¯º100å·', '18601643004', '2017-02-25 10:30:30', null);
 
 -- ----------------------------
 -- Table structure for cinema
@@ -127,7 +127,7 @@ CREATE TABLE findthing (
 -- ----------------------------
 -- Records of findthing
 -- ----------------------------
-INSERT INTO findthing VALUES ('1', '1', 'ÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝ', 'aa.jpg', '2017-02-25 21:43:20', null);
+INSERT INTO findthing VALUES ('1', '1', 'å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹', 'aa.jpg', '2017-02-25 21:43:20', null);
 
 -- ----------------------------
 -- Table structure for leasehourse
@@ -151,7 +151,7 @@ CREATE TABLE leasehourse (
 -- ----------------------------
 -- Records of leasehourse
 -- ----------------------------
-INSERT INTO leasehourse VALUES ('1', 'ÄÚÈÝÄÚÈÝ', '1000', '60', 'Î÷°²ÑãËþ±±Â·100ºÅ', '2017-02-25 20:52:30', 'aa.jpg', '18601643004', '1', '1', null);
+INSERT INTO leasehourse VALUES ('1', 'å†…å®¹å†…å®¹', '1000', '60', 'è¥¿å®‰é›å¡”åŒ—è·¯100å·', '2017-02-25 20:52:30', 'aa.jpg', '18601643004', '1', '1', null);
 
 -- ----------------------------
 -- Table structure for marry
@@ -182,7 +182,7 @@ CREATE TABLE marry (
 -- ----------------------------
 -- Records of marry
 -- ----------------------------
-INSERT INTO marry VALUES ('1', 'ÀîË¼Ë¼', 'ÄÐ', '±¾¿Æ', '²ß»®', '160', '110', 'ÒôÀÖ£¬µçÓ°£¬ÂÃÐÐ', '4000', 'Î´»é', 'Î÷°²ÑãËþÇø100ºÅ', 'aa.jpg', 'ÎÒºÜºÃ¿´', 'Ï£ÍûÄãÒ²ÄÜºÜºÃ¿´', '2017-02-25 21:43:20', '18601643004', '', null);
+INSERT INTO marry VALUES ('1', 'æŽæ€æ€', 'ç”·', 'æœ¬ç§‘', 'ç­–åˆ’', '160', '110', 'éŸ³ä¹ï¼Œç”µå½±ï¼Œæ—…è¡Œ', '4000', 'æœªå©š', 'è¥¿å®‰é›å¡”åŒº100å·', 'aa.jpg', 'æˆ‘å¾ˆå¥½çœ‹', 'å¸Œæœ›ä½ ä¹Ÿèƒ½å¾ˆå¥½çœ‹', '2017-02-25 21:43:20', '18601643004', '', null);
 
 -- ----------------------------
 -- Table structure for movie
@@ -229,7 +229,7 @@ CREATE TABLE salehourse (
 -- ----------------------------
 -- Records of salehourse
 -- ----------------------------
-INSERT INTO salehourse VALUES ('1', 'ÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝ', '1000', '100', 'Î÷°²ÑãËþÇø100ºÅ', '2017-02-25 20:52:30', '111.jpg', '18601643004', '1', null);
+INSERT INTO salehourse VALUES ('1', 'å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹', '1000', '100', 'è¥¿å®‰é›å¡”åŒº100å·', '2017-02-25 20:52:30', '111.jpg', '18601643004', '1', null);
 
 -- ----------------------------
 -- Table structure for sencondhandle
@@ -252,7 +252,7 @@ CREATE TABLE sencondhandle (
 -- ----------------------------
 -- Records of sencondhandle
 -- ----------------------------
-INSERT INTO sencondhandle VALUES ('1', '±êÌâ', 'ÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝ', '100', 'µØÖ·µØÖ·', 'aa.jpg', '2017-02-25 21:43:20', '18610643004', '1', null);
+INSERT INTO sencondhandle VALUES ('1', 'æ ‡é¢˜', 'å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹', '100', 'åœ°å€åœ°å€', 'aa.jpg', '2017-02-25 21:43:20', '18610643004', '1', null);
 
 -- ----------------------------
 -- Table structure for users
@@ -260,7 +260,7 @@ INSERT INTO sencondhandle VALUES ('1', '±êÌâ', 'ÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝ
 DROP TABLE IF EXISTS users;
 CREATE TABLE users (
   userId int(4) NOT NULL AUTO_INCREMENT,
-  nickName varchar(30) DEFAULT 'êÇ³Æ',
+  nickName varchar(30) DEFAULT 'æ˜µç§°',
   phoneNum varchar(13) NOT NULL,
   passwrod varchar(20) NOT NULL DEFAULT '',
   face varchar(100) DEFAULT NULL,
@@ -279,9 +279,9 @@ CREATE TABLE users (
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO users VALUES ('1', 'êÇ³Æ', '18601643004', '123456', null, '1', null, null, null, null, null, null, null, null);
-INSERT INTO users VALUES ('8', 'êÇ³Æ', '18601643003', '222222', null, '0', null, null, null, null, null, null, null, null);
-INSERT INTO users VALUES ('9', 'êÇ³Æ', '18601643001', '111111', null, '0', null, null, null, null, null, null, null, null);
+INSERT INTO users VALUES ('1', 'æ˜µç§°', '18601643004', '123456', null, '1', null, null, null, null, null, null, null, null);
+INSERT INTO users VALUES ('8', 'æ˜µç§°', '18601643003', '222222', null, '0', null, null, null, null, null, null, null, null);
+INSERT INTO users VALUES ('9', 'æ˜µç§°', '18601643001', '111111', null, '0', null, null, null, null, null, null, null, null);
 
 -- ----------------------------
 -- Table structure for wantedjob
@@ -305,4 +305,4 @@ CREATE TABLE wantedjob (
 -- ----------------------------
 -- Records of wantedjob
 -- ----------------------------
-INSERT INTO wantedjob VALUES ('1', '±êÌâ', 'ÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝÄÚÈÝ', '18601643004', '3000', 'ºÎÍ«', '26', 'ÄÐ', '2017-02-25 20:52:30', '1', null);
+INSERT INTO wantedjob VALUES ('1', 'æ ‡é¢˜', 'å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹', '18601643004', '3000', 'ä½•çž³', '26', 'ç”·', '2017-02-25 20:52:30', '1', null);
