@@ -1,4 +1,4 @@
-ï»¿/*
+/*
 Navicat MySQL Data Transfer
 
 Source Server         : test
@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50624
 File Encoding         : 65001
 
-Date: 2017-03-03 20:49:06
+Date: 2017-03-03 23:11:45
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -21,27 +21,28 @@ SET FOREIGN_KEY_CHECKS=0;
 DROP TABLE IF EXISTS advertises;
 CREATE TABLE advertises (
   advertisesId int(4) NOT NULL AUTO_INCREMENT,
-  title varchar(200) DEFAULT NULL,
-  content varchar(4000) DEFAULT NULL,
+  title varchar(200) DEFAULT '',
+  content varchar(4000) DEFAULT '',
   personNum int(4) DEFAULT '0',
-  advertisesAge varchar(50) DEFAULT NULL,
-  phoneNum varchar(13) DEFAULT NULL,
-  jobMoney varchar(20) DEFAULT NULL,
-  companyName varchar(100) DEFAULT NULL,
-  companyAddress varchar(100) DEFAULT NULL,
-  createTime varchar(30) DEFAULT NULL,
+  advertisesAge varchar(50) DEFAULT '',
+  phoneNum varchar(13) DEFAULT '',
+  jobMoney varchar(20) DEFAULT '',
+  companyName varchar(100) DEFAULT '',
+  companyAddress varchar(100) DEFAULT '',
+  createTime varchar(30) DEFAULT '',
   partTimeJob int(4) NOT NULL,
-  companydec varchar(4000) DEFAULT NULL,
+  companydec varchar(4000) DEFAULT '',
+  userId int(4) DEFAULT '0',
   PRIMARY KEY (advertisesId)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of advertises
 -- ----------------------------
-INSERT INTO advertises VALUES ('1', 'æ ‡é¢˜', 'å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹', '4', '18åˆ°35', '18601643004', '3000', 'é˜¿è¥¿å·´å…¬å¸', 'é˜¿è¥¿å§åœ°å€åœ°å€åœ°å€', '2017-02-25 20:52:30', '1', null);
-INSERT INTO advertises VALUES ('5', 'æ ‡é¢˜', '3464877879977707å¥³äººè‡ªå–å…¶è¾±é©¬è¨è¯¸å¡å·å…¨å¿ƒå…¨æ„æ¶‚ä¸Šè¯æŒ‡æ•°è½»è£…ä¸Šé˜µ', '10', '18 - 25å²', '18601643004', '1000 - 2000å…ƒ', 'å“¦å©†å©†ç›¸å»ç”šè¿œæ˜¯ä¸€ç”Ÿä¸€ä¸–é©¬è¨è¯¸å¡å·å§”æ›²æ±‚å…¨', 'ä½ è¦ç´¢ç„¶æ— å‘³é¸¦é›€æ— å£°', '2017-02-28 23:54:12', '1', 'null');
-INSERT INTO advertises VALUES ('6', 'æ ‡é¢˜', '3464877879977707å¥³äººè‡ªå–å…¶è¾±é©¬è¨è¯¸å¡å·å…¨å¿ƒå…¨æ„æ¶‚ä¸Šè¯æŒ‡æ•°è½»è£…ä¸Šé˜µ', '10', '18 - 25å²', '18601643004', '1000 - 2000å…ƒ', 'å“¦å©†å©†ç›¸å»ç”šè¿œæ˜¯ä¸€ç”Ÿä¸€ä¸–é©¬è¨è¯¸å¡å·å§”æ›²æ±‚å…¨', 'ä½ è¦ç´¢ç„¶æ— å‘³é¸¦é›€æ— å£°', '2017-02-28 23:55:10', '1', 'å“¦å©†å©†ç›¸å»ç”šè¿œæ˜¯ä¸€ç”Ÿä¸€ä¸–é©¬è¨è¯¸å¡å·å§”æ›²æ±‚å…¨');
-INSERT INTO advertises VALUES ('7', 'æ‹›è˜å¨å¸ˆ', 'ä¼šè›‹ç‚’é¥­å°±å¥½', '2', '25 - 30å²', '18601643004', '2000 - 3000å…ƒ', 'å¾ˆä¸é”™çš„å•†å®¶', 'ä¸Šæµ·å¸‚é™å®‰å¯º100å·', '2017-03-01 01:42:39', '1', 'å¾ˆä¸é”™çš„å•†å®¶');
+INSERT INTO advertises VALUES ('1', '±êÌâ', 'ÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİ', '4', '18µ½35', '18601643004', '3000', '°¢Î÷°Í¹«Ë¾', '°¢Î÷°ÉµØÖ·µØÖ·µØÖ·', '2017-02-25 20:52:30', '1', null, null);
+INSERT INTO advertises VALUES ('5', '±êÌâ', '3464877879977707Å®ÈË×ÔÈ¡ÆäÈèÂíÈøÖîÈûÖİÈ«ĞÄÈ«ÒâÍ¿ÉÏÖ¤Ö¸ÊıÇá×°ÉÏÕó', '10', '18 - 25Ëê', '18601643004', '1000 - 2000Ôª', 'Å¶ÆÅÆÅÏàÈ¥ÉõÔ¶ÊÇÒ»ÉúÒ»ÊÀÂíÈøÖîÈûÖİÎ¯ÇúÇóÈ«', 'ÄãÒªË÷È»ÎŞÎ¶Ñ»È¸ÎŞÉù', '2017-02-28 23:54:12', '1', 'null', null);
+INSERT INTO advertises VALUES ('6', '±êÌâ', '3464877879977707Å®ÈË×ÔÈ¡ÆäÈèÂíÈøÖîÈûÖİÈ«ĞÄÈ«ÒâÍ¿ÉÏÖ¤Ö¸ÊıÇá×°ÉÏÕó', '10', '18 - 25Ëê', '18601643004', '1000 - 2000Ôª', 'Å¶ÆÅÆÅÏàÈ¥ÉõÔ¶ÊÇÒ»ÉúÒ»ÊÀÂíÈøÖîÈûÖİÎ¯ÇúÇóÈ«', 'ÄãÒªË÷È»ÎŞÎ¶Ñ»È¸ÎŞÉù', '2017-02-28 23:55:10', '1', 'Å¶ÆÅÆÅÏàÈ¥ÉõÔ¶ÊÇÒ»ÉúÒ»ÊÀÂíÈøÖîÈûÖİÎ¯ÇúÇóÈ«', null);
+INSERT INTO advertises VALUES ('7', 'ÕĞÆ¸³øÊ¦', '»áµ°³´·¹¾ÍºÃ', '2', '25 - 30Ëê', '18601643004', '2000 - 3000Ôª', 'ºÜ²»´íµÄÉÌ¼Ò', 'ÉÏº£ÊĞ¾²°²ËÂ100ºÅ', '2017-03-01 01:42:39', '1', 'ºÜ²»´íµÄÉÌ¼Ò', null);
 
 -- ----------------------------
 -- Table structure for business
@@ -49,27 +50,28 @@ INSERT INTO advertises VALUES ('7', 'æ‹›è˜å¨å¸ˆ', 'ä¼šè›‹ç‚’é¥­å°±å¥½', '2', '
 DROP TABLE IF EXISTS business;
 CREATE TABLE business (
   businessId int(4) NOT NULL AUTO_INCREMENT,
-  businessName varchar(100) DEFAULT NULL,
-  content1 varchar(2000) DEFAULT NULL,
-  images1 varchar(1000) DEFAULT NULL,
-  content2 varchar(2000) DEFAULT NULL,
-  images2 varchar(1000) DEFAULT NULL,
-  content3 varchar(2000) DEFAULT NULL,
-  images3 varchar(1000) DEFAULT NULL,
-  content4 varchar(2000) DEFAULT NULL,
-  images4 varchar(1000) DEFAULT NULL,
-  content5 varchar(2000) DEFAULT NULL,
-  images5 varchar(1000) DEFAULT NULL,
-  address varchar(100) DEFAULT NULL,
-  phoneNum varchar(13) DEFAULT NULL,
-  createTime varchar(30) DEFAULT NULL,
+  businessName varchar(100) DEFAULT '',
+  content1 varchar(2000) DEFAULT '',
+  images1 varchar(1000) DEFAULT '',
+  content2 varchar(2000) DEFAULT '',
+  images2 varchar(1000) DEFAULT '',
+  content3 varchar(2000) DEFAULT '',
+  images3 varchar(1000) DEFAULT '',
+  content4 varchar(2000) DEFAULT '',
+  images4 varchar(1000) DEFAULT '',
+  content5 varchar(2000) DEFAULT '',
+  images5 varchar(1000) DEFAULT '',
+  address varchar(100) DEFAULT '',
+  phoneNum varchar(13) DEFAULT '',
+  createTime varchar(30) DEFAULT '',
+  userId int(4) DEFAULT '0',
   PRIMARY KEY (businessId)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of business
 -- ----------------------------
-INSERT INTO business VALUES ('2', 'æ–°çŸ³å™¨çƒ¤è‚‰', 'æ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘å·²ç›¸ç»§å¼€ä¸šå››åä½™å®¶è¿é”é—¨åº—;â€œæ–°çŸ³å™¨â€ä½œä¸ºâ€œç›˜å¤çƒ¤è‚‰â€å‡çº§åçš„æ–°åç§°ï¼Œå·²åœ¨ä¸Šæµ·ã€åŒ—äº¬ã€è‹å·ã€å—äº¬ç­‰åœ°ç»è¥äºŒåä½™å®¶è¿é”é—¨åº—;é…©æ‚¦ç‚­çƒ§ç«é”…ç›®å‰æ­£å¤„åœ¨æ¨¡å¼ä¼˜åŒ–å’Œå“ç‰ŒåŸ¹è‚²é˜¶æ®µã€‚éšç€ç»¼åˆå®åŠ›çš„ä¸æ–­æå‡å’Œå®Œå–„ï¼Œæ–°çŸ³å™¨çƒ¤è‚‰æœªæ¥å°†ç«‹è¶³äºæ²ªã€å®ã€æ­ã€äº¬ã€æ´¥ã€è“‰ç­‰åŸå¸‚ï¼Œæ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘é€æ­¥å¸ƒå±€å…¨å›½ã€‚', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689860&di=378b8ad58f4c40c34fac64304ce13114&imgtype=0&src=http%3A%2F%2F365jia.cn%2Fuploads%2F10%2F1202%2F4cf6f96375fec.jpg', 'æ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘åœ¨åå¤šå¹´çš„å‘å±•å†ç¨‹ä¸­ï¼Œé¤é¥®æ»¡æ€€çƒ­å¿±ï¼Œæ‰§ç€äºæ¯ä¸€ä¸ªç»†èŠ‚ï¼Œæ— è®ºæ˜¯åœ¨ç²¾è‡´é£Ÿæçš„ç”„é€‰ï¼Œçƒ¹é¥ªæŠ€æœ¯çš„æ¢ç´¢ï¼Œè¿˜æ˜¯å¯¹äºæœåŠ¡å“è´¨çš„è¿½æ±‚ï¼Œå§‹ç»ˆå€¾åŠ›ä¸ºé¡¾å®¢è¥é€ ä¸€ä»½æ„‰æ‚¦çš„ç”¨é¤ä½“éªŒï¼Œç¥ˆç›¼å°†è¿™ä»½å¹¸ç¦å¸¦ç»™æ¯ä¸€ä½å®¢äººã€‚æ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘åŠªåŠ›æˆä¸ºæœªæ¥å›½å†…æœ€å…·ä»·å€¼çš„é¤é¥®è¿é”ä¼ä¸šä¹‹ä¸€ã€‚', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689859&di=ec114d61662613dbec2059b938525b75&imgtype=0&src=http%3A%2F%2Fdown1.sucaitianxia.com%2Fpsd02%2Fpsd173%2Fpsds33840.jpg', 'æ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘å¯¹æ–°åŠ ç›Ÿå®¢æˆ·ï¼Œå…¬å¸å°†æ´¾ä¸“ä¸šé”€å”®äººå‘˜è¿›è¡Œå®åœ°å•†åœˆè°ƒæŸ¥ï¼Œä¸“å–åº—åœ°æ®µè¯„ä¼°ï¼Œå¸‚åœºç«äº‰ç¯å¢ƒï¼Œæ¶ˆè´¹ç¾¤ä½“ï¼Œå¼€å‘å‰æ™¯ç­‰ä¸€ç³»åˆ—å¯è¡Œæ€§åˆ†æï¼Œç¡®ä¿å“ç‰ŒæˆåŠŸå¯¼å…¥å¸‚åœºã€‚å…¬å¸å°†æ´¾å·¥ç¨‹è®¾è®¡äººå‘˜å…è´¹ä¸ºåŠ ç›Ÿåº—ã€è´§æŸœå½¢è±¡ã€äº§å“å’Œé“å…·çš„é™ˆåˆ—å½¢æˆå®Œæ•´çš„è§†è§‰è¯†åˆ«ç³»ç»Ÿï¼Œæ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘æä¾›è§„èŒƒçš„P0Pã€æµ·æŠ¥ã€ç”»å†Œç­‰ã€‚', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689857&di=ddb816724203a35c704b5918e43aab71&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F10%2F38%2F22h58PICPDV_1024.jpg', 'æ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘å…¬å¸å°†æä¾›æ— å¾®ä¸è‡³å¹¶å¯Œæœ‰å®æ•ˆçš„å‰æœŸå’Œå®šæœŸåŸ¹è®­ï¼Œå¦‚æœ¬è¡Œä¸šç»è¥æŠ€å·§ã€è¥ä¸šå‘˜æ¥å¾…æŠ€å·§ã€äº§å“ä¸“ä¸šçŸ¥è¯†ã€‚ä¸¥æ ¼çš„å¸‚åœºåŒºåŸŸåˆ’åˆ†ï¼Œåœ¨ä¸€å®šåŒºåŸŸå†…ç¡®ä¿åŠ ç›Ÿå•†å„æ–­ç»è¥ï¼Œæ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘é¿å…åŒå“ç‰Œä¹‹é—´çš„æ¶æ€§ç«äº‰ï¼Œè®©åŠ ç›Ÿå•†å……åˆ†äº«å—ç‰¹è®¸åŒºåŸŸçš„é”€å”®åˆ©ç›Šã€‚', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689856&di=545c6ca98cda1becc5e6731590f2c8e7&imgtype=0&src=http%3A%2F%2Fpic31.nipic.com%2F20130703%2F13167908_174347354000_2.jpg', 'æ–°çŸ³å™¨çƒ¤è‚‰éš¶å±äºä¸Šæµ·ç›˜å¤é¤é¥®ç®¡ç†æœ‰é™å…¬å¸ï¼Œè‡ª1999å¹´åˆ›ç«‹ä»¥æ¥ï¼Œ\r\nåœ¨ä¼ ç»Ÿçƒ¤è‚‰å·¥è‰ºçš„åŸºç¡€ä¸Šï¼Œæ±²å–ä¼—å®¶ä¹‹é•¿ï¼Œ\r\nç”¨å¿ƒåˆ›æ–°â€œçº¸ä¸Šçƒ§çƒ¤â€çš„çƒ¹é¥ªæ–¹å¼ï¼Œ\r\nç²¾é€‰å¥åº·ä¼˜è´¨é£Ÿæï¼ŒåšæŒå¤©ç„¶ç‹¬å®¶é…±æ–™ï¼Œ\r\nåŠ ä¹‹â€œäº”è‰²äº”å‘³â€çš„éŸ©å¼çŸ³é”…æ‹Œé¥­ï¼Œå‡è¡¡è†³é£Ÿè¥å…»ï¼Œ\r\nåœ¨äº«å—ç¾å‘³çš„åŒæ—¶ï¼Œåˆèƒ½ä½“éªŒDIYçš„é€¸è¶£ï¼›\r\næ–°çŸ³å™¨ä»¥ç¾å‘³çš„èœå“ï¼Œäº²æ°‘çš„ä»·æ ¼ï¼Œå¿«æ·çš„ä¾›é¤ï¼Œå‘¨åˆ°çš„ç¤¼é‡å’Œä¼˜é›…çš„ç¯å¢ƒï¼Œ\r\nä¸ºæ¯ä¸€ä½çƒ­çˆ±çƒ§çƒ¤çš„é¡¾å®¢æä¾›è¶…å€¼çš„æ¶ˆè´¹ä½“éªŒã€‚', 'http://xshq.pgbbq.cn/UploadImage/edit/images/img01.jpg', 'ä¸Šæµ·å¸‚é™å®‰å¯º100å·', '18601643004', '2017-02-25 10:30:30');
+INSERT INTO business VALUES ('2', 'ĞÂÊ¯Æ÷¿¾Èâ', 'ĞÂÊ¯Æ÷¿¾Èâ¹ÙÍøÒÑÏà¼Ì¿ªÒµËÄÊ®Óà¼ÒÁ¬ËøÃÅµê;¡°ĞÂÊ¯Æ÷¡±×÷Îª¡°ÅÌ¹Å¿¾Èâ¡±Éı¼¶ºóµÄĞÂÃû³Æ£¬ÒÑÔÚÉÏº£¡¢±±¾©¡¢ËÕÖİ¡¢ÄÏ¾©µÈµØ¾­Óª¶şÊ®Óà¼ÒÁ¬ËøÃÅµê;õ¤ÔÃÌ¿ÉÕ»ğ¹øÄ¿Ç°Õı´¦ÔÚÄ£Ê½ÓÅ»¯ºÍÆ·ÅÆÅàÓı½×¶Î¡£Ëæ×Å×ÛºÏÊµÁ¦µÄ²»¶ÏÌáÉıºÍÍêÉÆ£¬ĞÂÊ¯Æ÷¿¾ÈâÎ´À´½«Á¢×ãÓÚ»¦¡¢Äş¡¢º¼¡¢¾©¡¢½ò¡¢ÈØµÈ³ÇÊĞ£¬ĞÂÊ¯Æ÷¿¾Èâ¹ÙÍøÖğ²½²¼¾ÖÈ«¹ú¡£', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689860&di=378b8ad58f4c40c34fac64304ce13114&imgtype=0&src=http%3A%2F%2F365jia.cn%2Fuploads%2F10%2F1202%2F4cf6f96375fec.jpg', 'ĞÂÊ¯Æ÷¿¾Èâ¹ÙÍøÔÚÊ®¶àÄêµÄ·¢Õ¹Àú³ÌÖĞ£¬²ÍÒûÂú»³ÈÈ³À£¬Ö´×ÅÓÚÃ¿Ò»¸öÏ¸½Ú£¬ÎŞÂÛÊÇÔÚ¾«ÖÂÊ³²ÄµÄÕçÑ¡£¬Åëâ¿¼¼ÊõµÄÌ½Ë÷£¬»¹ÊÇ¶ÔÓÚ·şÎñÆ·ÖÊµÄ×·Çó£¬Ê¼ÖÕÇãÁ¦Îª¹Ë¿ÍÓªÔìÒ»·İÓäÔÃµÄÓÃ²ÍÌåÑé£¬ÆíÅÎ½«Õâ·İĞÒ¸£´ø¸øÃ¿Ò»Î»¿ÍÈË¡£ĞÂÊ¯Æ÷¿¾Èâ¹ÙÍøÅ¬Á¦³ÉÎªÎ´À´¹úÄÚ×î¾ß¼ÛÖµµÄ²ÍÒûÁ¬ËøÆóÒµÖ®Ò»¡£', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689859&di=ec114d61662613dbec2059b938525b75&imgtype=0&src=http%3A%2F%2Fdown1.sucaitianxia.com%2Fpsd02%2Fpsd173%2Fpsds33840.jpg', 'ĞÂÊ¯Æ÷¿¾Èâ¹ÙÍø¶ÔĞÂ¼ÓÃË¿Í»§£¬¹«Ë¾½«ÅÉ×¨ÒµÏúÊÛÈËÔ±½øĞĞÊµµØÉÌÈ¦µ÷²é£¬×¨ÂôµêµØ¶ÎÆÀ¹À£¬ÊĞ³¡¾ºÕù»·¾³£¬Ïû·ÑÈºÌå£¬¿ª·¢Ç°¾°µÈÒ»ÏµÁĞ¿ÉĞĞĞÔ·ÖÎö£¬È·±£Æ·ÅÆ³É¹¦µ¼ÈëÊĞ³¡¡£¹«Ë¾½«ÅÉ¹¤³ÌÉè¼ÆÈËÔ±Ãâ·ÑÎª¼ÓÃËµê¡¢»õ¹ñĞÎÏó¡¢²úÆ·ºÍµÀ¾ßµÄ³ÂÁĞĞÎ³ÉÍêÕûµÄÊÓ¾õÊ¶±ğÏµÍ³£¬ĞÂÊ¯Æ÷¿¾Èâ¹ÙÍøÌá¹©¹æ·¶µÄP0P¡¢º£±¨¡¢»­²áµÈ¡£', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689857&di=ddb816724203a35c704b5918e43aab71&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F10%2F38%2F22h58PICPDV_1024.jpg', 'ĞÂÊ¯Æ÷¿¾Èâ¹ÙÍø¹«Ë¾½«Ìá¹©ÎŞÎ¢²»ÖÁ²¢¸»ÓĞÊµĞ§µÄÇ°ÆÚºÍ¶¨ÆÚÅàÑµ£¬Èç±¾ĞĞÒµ¾­Óª¼¼ÇÉ¡¢ÓªÒµÔ±½Ó´ı¼¼ÇÉ¡¢²úÆ·×¨ÒµÖªÊ¶¡£ÑÏ¸ñµÄÊĞ³¡ÇøÓò»®·Ö£¬ÔÚÒ»¶¨ÇøÓòÄÚÈ·±£¼ÓÃËÉÌÂ¢¶Ï¾­Óª£¬ĞÂÊ¯Æ÷¿¾Èâ¹ÙÍø±ÜÃâÍ¬Æ·ÅÆÖ®¼äµÄ¶ñĞÔ¾ºÕù£¬ÈÃ¼ÓÃËÉÌ³ä·ÖÏíÊÜÌØĞíÇøÓòµÄÏúÊÛÀûÒæ¡£', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488042689856&di=545c6ca98cda1becc5e6731590f2c8e7&imgtype=0&src=http%3A%2F%2Fpic31.nipic.com%2F20130703%2F13167908_174347354000_2.jpg', 'ĞÂÊ¯Æ÷¿¾ÈâÁ¥ÊôÓÚÉÏº£ÅÌ¹Å²ÍÒû¹ÜÀíÓĞÏŞ¹«Ë¾£¬×Ô1999Äê´´Á¢ÒÔÀ´£¬\r\nÔÚ´«Í³¿¾Èâ¹¤ÒÕµÄ»ù´¡ÉÏ£¬¼³È¡ÖÚ¼ÒÖ®³¤£¬\r\nÓÃĞÄ´´ĞÂ¡°Ö½ÉÏÉÕ¿¾¡±µÄÅëâ¿·½Ê½£¬\r\n¾«Ñ¡½¡¿µÓÅÖÊÊ³²Ä£¬¼á³ÖÌìÈ»¶À¼Ò½´ÁÏ£¬\r\n¼ÓÖ®¡°ÎåÉ«ÎåÎ¶¡±µÄº«Ê½Ê¯¹ø°è·¹£¬¾ùºâÉÅÊ³ÓªÑø£¬\r\nÔÚÏíÊÜÃÀÎ¶µÄÍ¬Ê±£¬ÓÖÄÜÌåÑéDIYµÄÒİÈ¤£»\r\nĞÂÊ¯Æ÷ÒÔÃÀÎ¶µÄ²ËÆ·£¬Ç×ÃñµÄ¼Û¸ñ£¬¿ì½İµÄ¹©²Í£¬ÖÜµ½µÄÀñÓöºÍÓÅÑÅµÄ»·¾³£¬\r\nÎªÃ¿Ò»Î»ÈÈ°®ÉÕ¿¾µÄ¹Ë¿ÍÌá¹©³¬ÖµµÄÏû·ÑÌåÑé¡£', 'http://xshq.pgbbq.cn/UploadImage/edit/images/img01.jpg', 'ÉÏº£ÊĞ¾²°²ËÂ100ºÅ', '18601643004', '2017-02-25 10:30:30', null);
 
 -- ----------------------------
 -- Table structure for cinema
@@ -77,12 +79,13 @@ INSERT INTO business VALUES ('2', 'æ–°çŸ³å™¨çƒ¤è‚‰', 'æ–°çŸ³å™¨çƒ¤è‚‰å®˜ç½‘å·²ç›
 DROP TABLE IF EXISTS cinema;
 CREATE TABLE cinema (
   cinemaId int(4) NOT NULL AUTO_INCREMENT,
-  cinemaName varchar(100) DEFAULT NULL,
-  address varchar(100) DEFAULT NULL,
-  price varchar(30) DEFAULT NULL,
-  isimax varchar(30) DEFAULT NULL,
-  createTime varchar(30) DEFAULT NULL,
+  cinemaName varchar(100) DEFAULT '',
+  address varchar(100) DEFAULT '',
+  price varchar(30) DEFAULT '',
+  isimax varchar(30) DEFAULT '',
+  createTime varchar(30) DEFAULT '',
   movieId int(4) DEFAULT NULL,
+  userId int(4) DEFAULT '0',
   PRIMARY KEY (cinemaId)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -96,9 +99,9 @@ CREATE TABLE cinema (
 DROP TABLE IF EXISTS cinematime;
 CREATE TABLE cinematime (
   cinematimeId int(4) NOT NULL,
-  time varchar(30) DEFAULT NULL,
-  isdd varchar(30) DEFAULT NULL,
-  price varchar(30) DEFAULT NULL,
+  time varchar(30) DEFAULT '',
+  isdd varchar(30) DEFAULT '',
+  price varchar(30) DEFAULT '',
   cinemaId int(4) DEFAULT NULL,
   PRIMARY KEY (cinematimeId)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -114,16 +117,17 @@ DROP TABLE IF EXISTS findthing;
 CREATE TABLE findthing (
   findthingId int(4) NOT NULL AUTO_INCREMENT,
   type int(4) DEFAULT NULL,
-  content varchar(4000) DEFAULT NULL,
-  images varchar(100) DEFAULT NULL,
-  createTime varchar(30) DEFAULT NULL,
+  content varchar(4000) DEFAULT '',
+  images varchar(100) DEFAULT '',
+  createTime varchar(30) DEFAULT '',
+  userId int(4) DEFAULT '0',
   PRIMARY KEY (findthingId)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of findthing
 -- ----------------------------
-INSERT INTO findthing VALUES ('1', '1', 'å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹', 'aa.jpg', '2017-02-25 21:43:20');
+INSERT INTO findthing VALUES ('1', '1', 'ÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİ', 'aa.jpg', '2017-02-25 21:43:20', null);
 
 -- ----------------------------
 -- Table structure for leasehourse
@@ -131,22 +135,23 @@ INSERT INTO findthing VALUES ('1', '1', 'å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…
 DROP TABLE IF EXISTS leasehourse;
 CREATE TABLE leasehourse (
   leasehourseId int(4) NOT NULL AUTO_INCREMENT,
-  content varchar(4000) DEFAULT NULL,
-  leaseMoney varchar(30) DEFAULT NULL,
-  area varchar(30) DEFAULT NULL,
-  address varchar(100) DEFAULT NULL,
-  createTime varchar(30) DEFAULT NULL,
-  images varchar(100) DEFAULT NULL,
-  phoneNum varchar(13) DEFAULT NULL,
+  content varchar(4000) DEFAULT '',
+  leaseMoney varchar(30) DEFAULT '',
+  area varchar(30) DEFAULT '',
+  address varchar(100) DEFAULT '',
+  createTime varchar(30) DEFAULT '',
+  images varchar(100) DEFAULT '',
+  phoneNum varchar(13) DEFAULT '',
   leasehourseType int(4) NOT NULL,
   islease int(4) NOT NULL,
+  userId int(4) DEFAULT '0',
   PRIMARY KEY (leasehourseId)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of leasehourse
 -- ----------------------------
-INSERT INTO leasehourse VALUES ('1', 'å†…å®¹å†…å®¹', '1000', '60', 'è¥¿å®‰é›å¡”åŒ—è·¯100å·', '2017-02-25 20:52:30', 'aa.jpg', '18601643004', '1', '1');
+INSERT INTO leasehourse VALUES ('1', 'ÄÚÈİÄÚÈİ', '1000', '60', 'Î÷°²ÑãËş±±Â·100ºÅ', '2017-02-25 20:52:30', 'aa.jpg', '18601643004', '1', '1', null);
 
 -- ----------------------------
 -- Table structure for marry
@@ -154,29 +159,30 @@ INSERT INTO leasehourse VALUES ('1', 'å†…å®¹å†…å®¹', '1000', '60', 'è¥¿å®‰é›å¡”
 DROP TABLE IF EXISTS marry;
 CREATE TABLE marry (
   marryId int(4) NOT NULL AUTO_INCREMENT,
-  nickName varchar(30) DEFAULT NULL,
-  sex varchar(10) DEFAULT NULL,
-  qualifications varchar(20) DEFAULT NULL,
-  job varchar(30) DEFAULT NULL,
-  height varchar(10) DEFAULT NULL,
-  weight varchar(10) DEFAULT NULL,
-  hobby varchar(50) DEFAULT NULL,
-  jobMoney varchar(10) DEFAULT NULL,
-  ismarry varchar(10) DEFAULT NULL,
-  address varchar(100) DEFAULT NULL,
-  images varchar(100) DEFAULT NULL,
-  owndec varchar(200) DEFAULT NULL,
-  otherdec varchar(200) DEFAULT NULL,
-  createTime varchar(30) DEFAULT NULL,
-  phoneNum varchar(13) DEFAULT NULL,
-  vidio varchar(100) DEFAULT NULL,
+  nickName varchar(30) DEFAULT '',
+  sex varchar(10) DEFAULT '',
+  qualifications varchar(20) DEFAULT '',
+  job varchar(30) DEFAULT '',
+  height varchar(10) DEFAULT '',
+  weight varchar(10) DEFAULT '',
+  hobby varchar(50) DEFAULT '',
+  jobMoney varchar(10) DEFAULT '',
+  ismarry varchar(10) DEFAULT '',
+  address varchar(100) DEFAULT '',
+  images varchar(100) DEFAULT '',
+  owndec varchar(200) DEFAULT '',
+  otherdec varchar(200) DEFAULT '',
+  createTime varchar(30) DEFAULT '',
+  phoneNum varchar(13) DEFAULT '',
+  vidio varchar(100) DEFAULT '',
+  userId int(4) DEFAULT '0',
   PRIMARY KEY (marryId)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of marry
 -- ----------------------------
-INSERT INTO marry VALUES ('1', 'ææ€æ€', 'ç”·', 'æœ¬ç§‘', 'ç­–åˆ’', '160', '110', 'éŸ³ä¹ï¼Œç”µå½±ï¼Œæ—…è¡Œ', '4000', 'æœªå©š', 'è¥¿å®‰é›å¡”åŒº100å·', 'aa.jpg', 'æˆ‘å¾ˆå¥½çœ‹', 'å¸Œæœ›ä½ ä¹Ÿèƒ½å¾ˆå¥½çœ‹', '2017-02-25 21:43:20', '18601643004', '');
+INSERT INTO marry VALUES ('1', 'ÀîË¼Ë¼', 'ÄĞ', '±¾¿Æ', '²ß»®', '160', '110', 'ÒôÀÖ£¬µçÓ°£¬ÂÃĞĞ', '4000', 'Î´»é', 'Î÷°²ÑãËşÇø100ºÅ', 'aa.jpg', 'ÎÒºÜºÃ¿´', 'Ï£ÍûÄãÒ²ÄÜºÜºÃ¿´', '2017-02-25 21:43:20', '18601643004', '', null);
 
 -- ----------------------------
 -- Table structure for movie
@@ -184,17 +190,17 @@ INSERT INTO marry VALUES ('1', 'ææ€æ€', 'ç”·', 'æœ¬ç§‘', 'ç­–åˆ’', '160', '1
 DROP TABLE IF EXISTS movie;
 CREATE TABLE movie (
   movieId int(4) NOT NULL AUTO_INCREMENT,
-  movieName varchar(100) DEFAULT NULL,
-  director varchar(30) DEFAULT NULL,
-  toStar varchar(100) DEFAULT NULL,
-  area varchar(100) DEFAULT NULL,
-  timelong varchar(30) DEFAULT NULL,
-  playTime varchar(30) DEFAULT NULL,
-  dec varchar(4000) DEFAULT NULL,
-  images varchar(100) DEFAULT NULL,
-  score varchar(10) DEFAULT NULL,
-  isdd varchar(30) DEFAULT NULL,
-  createTime varchar(30) DEFAULT NULL,
+  movieName varchar(100) DEFAULT '',
+  director varchar(30) DEFAULT '',
+  toStar varchar(100) DEFAULT '',
+  area varchar(100) DEFAULT '',
+  timelong varchar(30) DEFAULT '',
+  playTime varchar(30) DEFAULT '',
+  dec varchar(4000) DEFAULT '',
+  images varchar(100) DEFAULT '',
+  score varchar(10) DEFAULT '',
+  isdd varchar(30) DEFAULT '',
+  createTime varchar(30) DEFAULT '',
   PRIMARY KEY (movieId)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -208,21 +214,22 @@ CREATE TABLE movie (
 DROP TABLE IF EXISTS salehourse;
 CREATE TABLE salehourse (
   salehourseId int(4) NOT NULL AUTO_INCREMENT,
-  content varchar(4000) DEFAULT NULL,
-  saleMoney varchar(30) DEFAULT NULL,
-  area varchar(10) DEFAULT NULL,
-  address varchar(100) DEFAULT NULL,
-  createTime varchar(30) DEFAULT NULL,
-  images varchar(100) DEFAULT NULL,
-  phoneNum varchar(13) DEFAULT NULL,
+  content varchar(4000) DEFAULT '',
+  saleMoney varchar(30) DEFAULT '',
+  area varchar(10) DEFAULT '',
+  address varchar(100) DEFAULT '',
+  createTime varchar(30) DEFAULT '',
+  images varchar(100) DEFAULT '',
+  phoneNum varchar(13) DEFAULT '',
   issale int(4) NOT NULL,
+  userId int(4) DEFAULT '0',
   PRIMARY KEY (salehourseId)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of salehourse
 -- ----------------------------
-INSERT INTO salehourse VALUES ('1', 'å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹', '1000', '100', 'è¥¿å®‰é›å¡”åŒº100å·', '2017-02-25 20:52:30', '111.jpg', '18601643004', '1');
+INSERT INTO salehourse VALUES ('1', 'ÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİ', '1000', '100', 'Î÷°²ÑãËşÇø100ºÅ', '2017-02-25 20:52:30', '111.jpg', '18601643004', '1', null);
 
 -- ----------------------------
 -- Table structure for sencondhandle
@@ -230,21 +237,22 @@ INSERT INTO salehourse VALUES ('1', 'å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å
 DROP TABLE IF EXISTS sencondhandle;
 CREATE TABLE sencondhandle (
   senconhandleId int(4) NOT NULL AUTO_INCREMENT,
-  title varchar(100) DEFAULT NULL,
-  content varchar(4000) DEFAULT NULL,
-  price varchar(10) DEFAULT NULL,
-  address varchar(100) DEFAULT NULL,
-  images varchar(100) DEFAULT NULL,
-  createTime varchar(30) DEFAULT NULL,
-  phoneNum varchar(13) DEFAULT NULL,
+  title varchar(100) DEFAULT '',
+  content varchar(4000) DEFAULT '',
+  price varchar(10) DEFAULT '',
+  address varchar(100) DEFAULT '',
+  images varchar(100) DEFAULT '',
+  createTime varchar(30) DEFAULT '',
+  phoneNum varchar(13) DEFAULT '',
   issencond int(4) NOT NULL,
+  userId int(4) DEFAULT '0',
   PRIMARY KEY (senconhandleId)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of sencondhandle
 -- ----------------------------
-INSERT INTO sencondhandle VALUES ('1', 'æ ‡é¢˜', 'å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹', '100', 'åœ°å€åœ°å€', 'aa.jpg', '2017-02-25 21:43:20', '18610643004', '1');
+INSERT INTO sencondhandle VALUES ('1', '±êÌâ', 'ÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİ', '100', 'µØÖ·µØÖ·', 'aa.jpg', '2017-02-25 21:43:20', '18610643004', '1', null);
 
 -- ----------------------------
 -- Table structure for users
@@ -252,7 +260,7 @@ INSERT INTO sencondhandle VALUES ('1', 'æ ‡é¢˜', 'å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹
 DROP TABLE IF EXISTS users;
 CREATE TABLE users (
   userId int(4) NOT NULL AUTO_INCREMENT,
-  nickName varchar(30) DEFAULT 'æ˜µç§°',
+  nickName varchar(30) DEFAULT 'êÇ³Æ',
   phoneNum varchar(13) NOT NULL,
   passwrod varchar(20) NOT NULL DEFAULT '',
   face varchar(100) DEFAULT NULL,
@@ -271,9 +279,9 @@ CREATE TABLE users (
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO users VALUES ('1', 'æ˜µç§°', '18601643004', '123456', null, '1', null, null, null, null, null, null, null, null);
-INSERT INTO users VALUES ('8', 'æ˜µç§°', '18601643003', '222222', null, '0', null, null, null, null, null, null, null, null);
-INSERT INTO users VALUES ('9', 'æ˜µç§°', '18601643001', '111111', null, '0', null, null, null, null, null, null, null, null);
+INSERT INTO users VALUES ('1', 'êÇ³Æ', '18601643004', '123456', null, '1', null, null, null, null, null, null, null, null);
+INSERT INTO users VALUES ('8', 'êÇ³Æ', '18601643003', '222222', null, '0', null, null, null, null, null, null, null, null);
+INSERT INTO users VALUES ('9', 'êÇ³Æ', '18601643001', '111111', null, '0', null, null, null, null, null, null, null, null);
 
 -- ----------------------------
 -- Table structure for wantedjob
@@ -281,19 +289,20 @@ INSERT INTO users VALUES ('9', 'æ˜µç§°', '18601643001', '111111', null, '0', nul
 DROP TABLE IF EXISTS wantedjob;
 CREATE TABLE wantedjob (
   wantedjobId int(4) NOT NULL AUTO_INCREMENT,
-  title varchar(200) DEFAULT NULL,
-  content varchar(4000) DEFAULT NULL,
-  phoneNum varchar(13) DEFAULT NULL,
-  jobMoney varchar(30) DEFAULT NULL,
-  personName varchar(30) DEFAULT NULL,
-  age varchar(10) DEFAULT NULL,
-  sex varchar(10) DEFAULT NULL,
-  createTime varchar(30) DEFAULT NULL,
+  title varchar(200) DEFAULT '',
+  content varchar(4000) DEFAULT '',
+  phoneNum varchar(13) DEFAULT '',
+  jobMoney varchar(30) DEFAULT '',
+  personName varchar(30) DEFAULT '',
+  age varchar(10) DEFAULT '',
+  sex varchar(10) DEFAULT '',
+  createTime varchar(30) DEFAULT '',
   partTimeJob int(4) NOT NULL DEFAULT '0',
+  userId int(4) DEFAULT '0',
   PRIMARY KEY (wantedjobId)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of wantedjob
 -- ----------------------------
-INSERT INTO wantedjob VALUES ('1', 'æ ‡é¢˜', 'å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹å†…å®¹', '18601643004', '3000', 'ä½•ç³', '26', 'ç”·', '2017-02-25 20:52:30', '1');
+INSERT INTO wantedjob VALUES ('1', '±êÌâ', 'ÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİÄÚÈİ', '18601643004', '3000', 'ºÎÍ«', '26', 'ÄĞ', '2017-02-25 20:52:30', '1', null);
