@@ -196,7 +196,7 @@ CREATE TABLE movie (
   area varchar(100) DEFAULT '',
   timelong varchar(30) DEFAULT '',
   playTime varchar(30) DEFAULT '',
-  dec varchar(4000) DEFAULT '',
+  descript varchar(4000) DEFAULT '',
   images varchar(100) DEFAULT '',
   score varchar(10) DEFAULT '',
   isdd varchar(30) DEFAULT '',
