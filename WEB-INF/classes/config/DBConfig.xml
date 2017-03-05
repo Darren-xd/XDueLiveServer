@@ -35,7 +35,6 @@
 			<item name="pool-maxsize" value="50" />
 			<item name="test-sql" value="select CURRENT_DATE" />
 			<item name="connection-url" value="jdbc:mysql://localhost:3306/uelive?characterEncoding=utf8" />
-
 			<item name="driver-class" value="com.mysql.jdbc.Driver" />
 			<item name="autoReconnect">true</item>
 			<item name="user-name" value="root" />
