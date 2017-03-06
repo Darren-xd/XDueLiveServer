@@ -318,7 +318,7 @@ CREATE TABLE shunfengcar (
 DROP TABLE IF EXISTS users;
 CREATE TABLE users (
   userId int(4) NOT NULL AUTO_INCREMENT,
-  nickName varchar(30) DEFAULT 'Í«≥∆',
+  nickName varchar(30) DEFAULT '',
   phoneNum varchar(13) NOT NULL,
   passwrod varchar(20) NOT NULL DEFAULT '',
   face varchar(100) DEFAULT '',
