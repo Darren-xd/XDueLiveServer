@@ -39,6 +39,9 @@
 			<item name="autoReconnect">true</item>
 			<item name="user-name" value="root" />
 			<item name="password" value="Xude123xude.." />
+			<!-- 
+			<item name="password" value="" />
+			 -->
 		</SYSDATASOURCE_OPMS>
 	</DataSources>
 </Config>
