@@ -34,13 +34,13 @@
 			<item name="pool-minsize" value="10" />
 			<item name="pool-maxsize" value="50" />
 			<item name="test-sql" value="select CURRENT_DATE" />
-			<item name="connection-url" value="jdbc:mysql://localhost:3306/uelive?characterEncoding=utf8" />
+			<item name="connection-url" value="jdbc:mysql://101.200.38.24:3306/uelive?characterEncoding=utf8" />
 			<item name="driver-class" value="com.mysql.jdbc.Driver" />
 			<item name="autoReconnect">true</item>
 			<item name="user-name" value="root" />
 			<item name="password" value="Xude123xude.." />
 			<!-- 
-			<item name="password" value="" />
+			<item name="password" value="Xude123xude.." />
 			 -->
 		</SYSDATASOURCE_OPMS>
 	</DataSources>
