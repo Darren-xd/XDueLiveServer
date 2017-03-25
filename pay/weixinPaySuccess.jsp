@@ -1,3 +1,6 @@
+<%@page import="com.ht.model.OrderInfo"%>
+<%@page import="com.ht.daoimp.OrderDaoImpl"%>
+<%@page import="com.ht.dao.OrderDao"%>
 <%@page import="java.io.BufferedOutputStream"%>
 <%@page import="com.ht.utils.PayCommonUtil"%>
 <%@page import="com.ht.pay.weixin.Utils.WeixinConfigUtils"%>
@@ -7,6 +10,7 @@
 <%@page import="java.io.InputStream"%>
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%
+OrderDao orderDao=new OrderDaoImpl();
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 System.out.println("SUCCESS");
@@ -58,19 +62,25 @@ System.out.println("SUCCESS");
                 String out_trade_no = (String)packageParams.get("out_trade_no");  
                   
                 String total_fee = (String)packageParams.get("total_fee");  
+                
+                String attach=(String)packageParams.get("attach");  
                   
                 System.out.println("mch_id:"+mch_id);  
                 System.out.println("openid:"+openid);  
                 System.out.println("is_subscribe:"+is_subscribe);  
                 System.out.println("out_trade_no:"+out_trade_no);  
                 System.out.println("total_fee:"+total_fee);  
+                System.out.println("attach:"+attach);  
+                OrderInfo model=new OrderInfo();
+                model.setOut_trade_no(out_trade_no);
+                orderDao.updateOrderState(model);
                   
                 //////////执行自己的业务逻辑////////////////  
-                  
                 System.out.println("支付成功");  
                 //通知微信.异步确认成功.必写.不然会一直通知后台.八次之后就认为交易失败了.  
                 resXml = "<xml>" + "<return_code><![CDATA[SUCCESS]]></return_code>"  
                         + "<return_msg><![CDATA[OK]]></return_msg>" + "</xml> ";  
+                
                   
             } else {  
                 System.out.println("支付失败,错误信息：" + packageParams.get("err_code"));  
